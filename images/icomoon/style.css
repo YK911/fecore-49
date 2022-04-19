@@ -1,0 +1,48 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.contact {
+  width: 0.98828125em;
+}
+
+.house-bookshelves {
+  width: 1.4775390625em;
+}
+
+.learning-languages {
+  width: 1.2822265625em;
+}
+
+.lesson {
+  width: 1.3310546875em;
+}
+
+.online {
+  width: 1.3310546875em;
+}
+
+.podcast-audience {
+  width: 1.4892578125em;
+}
+
+.typewriter {
+  width: 1.4775390625em;
+}
+
+.webinar {
+  width: 1.3310546875em;
+}

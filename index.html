@@ -56,8 +56,8 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <a class="logo" href="">Britlex</a>
+      <div class="container header-container">
+        <a class="logo" href=""><span class="logo-accent">Brit</span>lex</a>
         <nav class="header-nav">
           <ul class="header-list">
             <li class="header-item">
@@ -82,69 +82,192 @@
     </header>
     <main>
       <section class="section hero">
-        <div class="container">
+        <div class="container hero-container">
           <div class="hero-left-side">
-            <h1 class="hero-title">Learn Any Foreign Language</h1>
+            <h1 class="hero-title">Learn Any&nbsp;Foreign Language</h1>
             <p class="hero-text">
               With our teachers who write a program for each student, you will
               be able to make your first sketch after the first lesson.
             </p>
+            <svg class="hero-icon" width="120" height="120">
+              <use href="./images/sprite.svg#bulb-icon"></use>
+            </svg>
             <button class="btn hero-btn" type="button">Get started</button>
           </div>
           <div class="hero-right-side">
-            <svg class="hero-pic" width="654" height="510">
-              <use href=""></use>
-            </svg>
+            <!-- <svg class="hero-pic" width="654" height="510">
+              <use href="./images/sprite.svg#learning-languages"></use>
+            </svg> -->
+            <img
+              src="./images/pic/learning-languages.svg"
+              alt=""
+              width="654"
+              height="510"
+            />
           </div>
         </div>
       </section>
       <section class="section skills">
         <div class="container">
           <h2 class="title">Skills</h2>
-          <ul class="skills-list">
+          <!-- <ul class="skills-list">
             <li class="skills-card">
-              <h3 class="skills-card-title">Speaking</h3>
-              <p>
-                Improve your English skills and confidence. Live classes and
-                interactive lessons online. 20% extra free for a limited time
-                only
-              </p>
-              <p>
-                Learn English online and improve your skills through our
-                high-quality courses and resources – all designed for adult
-                language learners.
-              </p>
-              <button class="btn skills-btn">Learn more</button>
+              <img
+                src="./images/pic/shared-goals.svg"
+                alt=""
+                width="390"
+                height="390"
+              />
+              <div class="skills-card-group">
+                <h3 class="subtitle">Speaking</h3>
+                <p class="skills-card-decr">
+                  Improve your English skills and confidence. Live classes and
+                  interactive lessons online. 20% extra free for a limited time
+                  only
+                </p>
+                <p class="skills-card-decr">
+                  Learn English online and improve your skills through our
+                  high-quality courses and resources – all designed for adult
+                  language learners.
+                </p>
+                <button class="btn skills-btn">Learn more</button>
+              </div>
             </li>
             <li class="skills-card">
-              <h3 class="skills-card-title">Writing</h3>
-              <p>
-                One of the most important and extensive areas of natural
-                science, the science that studies substances, also their
-                composition
-              </p>
+              <img
+                src="./images/pic/typewriter.svg"
+                alt=""
+                width="390"
+                height="264"
+              />
+              <div class="skills-card-group">
+                <h3 class="subtitle">Writing</h3>
+                <p class="skills-card-decr">
+                  One of the most important and extensive areas of natural
+                  science, the science that studies substances, also their
+                  composition
+                </p>
 
-              <button class="btn skills-btn">Learn more</button>
+                <button class="btn skills-btn">Learn more</button>
+              </div>
             </li>
             <li class="skills-card">
-              <h3 class="skills-card-title">Reading</h3>
-              <p>
-                Perception and response actions of the user resulting from the
-                use and/or upcoming use of the product, system or service
-              </p>
+              <img
+                src="./images/pic/house-bookshelves.svg"
+                alt=""
+                width="390"
+                height="264"
+              />
+              <div class="skills-card-group">
+                <h3 class="subtitle">Reading</h3>
+                <p class="skills-card-decr">
+                  Perception and response actions of the user resulting from the
+                  use and/or upcoming use of the product, system or service
+                </p>
 
-              <button class="btn skills-btn">Learn more</button>
+                <button class="btn skills-btn">Learn more</button>
+              </div>
             </li>
             <li class="skills-card">
-              <h3 class="skills-card-title">Listening</h3>
-              <p>
-                Here you can find activities to practise your listening skills.
-                Listening will help you to improve your understanding
-              </p>
+              <img
+                src="./images/pic/podcast-audience.svg"
+                alt=""
+                width="408"
+                height="274"
+              />
+              <div class="skills-card-group">
+                <h3 class="subtitle">Listening</h3>
+                <p class="skills-card-decr">
+                  Here you can find activities to practise your listening
+                  skills. Listening will help you to improve your understanding
+                </p>
 
-              <button class="btn skills-btn">Learn more</button>
+                <button class="btn skills-btn">Learn more</button>
+              </div>
             </li>
-          </ul>
+          </ul> -->
+          <div class="skills-list">
+            <article class="skills-card">
+              <img
+                src="./images/pic/shared-goals.svg"
+                alt=""
+                width="390"
+                height="390"
+              />
+              <div class="skills-card-group">
+                <h3 class="subtitle">Speaking</h3>
+                <p class="skills-card-decr">
+                  Improve your English skills and confidence. Live classes and
+                  interactive lessons online. 20% extra free for a limited time
+                  only
+                </p>
+                <p class="skills-card-decr">
+                  Learn English online and improve your skills through our
+                  high-quality courses and resources – all designed for adult
+                  language learners.
+                </p>
+                <button class="btn skills-btn">Learn more</button>
+              </div>
+            </article>
+            <div class="skills-card-wrapper">
+              <div class="skills-card-inner-wrapper">
+                <article class="skills-card">
+                  <img
+                    src="./images/pic/typewriter.svg"
+                    alt=""
+                    width="390"
+                    height="264"
+                  />
+                  <div class="skills-card-group">
+                    <h3 class="subtitle">Writing</h3>
+                    <p class="skills-card-decr">
+                      One of the most important and extensive areas of natural
+                      science, the science that studies substances, also their
+                      composition
+                    </p>
+
+                    <button class="btn skills-btn">Learn more</button>
+                  </div>
+                </article>
+                <article class="skills-card">
+                  <img
+                    src="./images/pic/house-bookshelves.svg"
+                    alt=""
+                    width="390"
+                    height="264"
+                  />
+                  <div class="skills-card-group">
+                    <h3 class="subtitle">Reading</h3>
+                    <p class="skills-card-decr">
+                      Perception and response actions of the user resulting from
+                      the use and/or upcoming use of the product, system or
+                      service
+                    </p>
+
+                    <button class="btn skills-btn">Learn more</button>
+                  </div>
+                </article>
+              </div>
+              <article class="skills-card">
+                <img
+                  src="./images/pic/podcast-audience.svg"
+                  alt=""
+                  width="408"
+                  height="274"
+                />
+                <div class="skills-card-group">
+                  <h3 class="subtitle">Listening</h3>
+                  <p class="skills-card-decr">
+                    Here you can find activities to practise your listening
+                    skills. Listening will help you to improve your
+                    understanding
+                  </p>
+
+                  <button class="btn skills-btn">Learn more</button>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
       <section class="section about">
@@ -184,11 +307,17 @@
       <section class="section pricing">
         <div class="container">
           <h2 class="title">Pricing</h2>
-          <ul class="pricing-list">
-            <li class="pricing-card">
-              <svg class="pricing-pic" width="426" height="320">
+          <ul class="pricing-list grid">
+            <li class="pricing-card grid-item">
+              <!-- <svg class="pricing-pic" width="426" height="320">
                 <use href=""></use>
-              </svg>
+              </svg> -->
+              <img
+                src="./images/pic/online.svg"
+                alt=""
+                width="426"
+                height="320"
+              />
               <h3 class="pricing-card-title">Self-study online course</h3>
               <p>
                 Start learning English online in live classes with qualified EC
@@ -199,10 +328,16 @@
                 <p>per month</p>
               </div>
             </li>
-            <li class="pricing-card">
-              <svg class="pricing-pic" width="426" height="320">
+            <li class="pricing-card grid-item">
+              <!-- <svg class="pricing-pic" width="426" height="320">
                 <use href=""></use>
-              </svg>
+              </svg> -->
+              <img
+                src="./images/pic/lesson.svg"
+                alt=""
+                width="426"
+                height="320"
+              />
               <h3 class="pricing-card-title">Live online classes</h3>
               <p>
                 Interactive group classes with expert teachers. Free 7-day trial
@@ -212,10 +347,16 @@
                 <p>per month</p>
               </div>
             </li>
-            <li class="pricing-card">
-              <svg class="pricing-pic" width="426" height="320">
+            <li class="pricing-card grid-item">
+              <!-- <svg class="pricing-pic" width="426" height="320">
                 <use href=""></use>
-              </svg>
+              </svg> -->
+              <img
+                src="./images/pic/webinar.svg"
+                alt=""
+                width="426"
+                height="320"
+              />
               <h3 class="pricing-card-title">Personal Tuition</h3>
               <p>
                 Online one-to-one English tutoring – enjoy our first session for
@@ -254,7 +395,7 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="logo" href="">Britlex</a>
+        <a class="logo" href=""><span class="logo-accent">Brit</span>lex</a>
         <ul class="footer-list">
           <li class="footer-item">
             <a class="footer-link" href="">Terms and Conditions</a>
